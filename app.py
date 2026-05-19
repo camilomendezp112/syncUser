@@ -14,7 +14,7 @@ sentry_sdk.init(
     traces_sample_rate=1.0
 )
 
-sentry_sdk.set_tag("module", "manageAsset")
+sentry_sdk.set_tag("module", "syncUser")
 sentry_sdk.set_tag("team", "grupo-3")
 
 def lambda_handler(event, context):
